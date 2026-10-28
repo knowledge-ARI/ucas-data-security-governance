@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "validated_runs": 65,
+  "data_hashes_match": true,
+  "train_validation_disjoint": true,
+  "test_count": 10000,
+  "checks": [
+    "IDX headers and lengths",
+    "original data SHA256",
+    "training-only corruption",
+    "exact corruption counts",
+    "source-only targeting",
+    "saved predictions and ASR denominators",
+    "confusion matrix totals",
+    "5 paired seeds in each group"
+  ],
+  "source_train": 1022,
+  "source_test": 1010
+}

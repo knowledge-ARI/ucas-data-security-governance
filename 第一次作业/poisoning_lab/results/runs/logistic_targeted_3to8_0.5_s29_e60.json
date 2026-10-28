@@ -1,0 +1,26 @@
+{
+  "fingerprint": "4b0b3d175f3fb76a3fa545a4db28c6bab5a86bb0323d27839e69a4295bc383eb",
+  "metrics": {
+    "key": "logistic_targeted_3to8_0.5_s29_e60",
+    "attack": "targeted",
+    "rate": 0.5,
+    "seed": 29,
+    "source": 3,
+    "target": 8,
+    "model": "logistic",
+    "epochs": 60,
+    "n_poison": 511,
+    "pool_size": 1022,
+    "pool_rate": 0.5,
+    "global_rate": 0.0511,
+    "seconds": 1.4879356999881566,
+    "accuracy": 0.8656,
+    "macro_f1": 0.8600044805819523,
+    "asr": 0.4861386138613861,
+    "source_recall": 0.39603960396039606,
+    "other_accuracy": 0.9183537263626251,
+    "source_count": 1010,
+    "target_errors": 491
+  },
+  "history": []
+}
